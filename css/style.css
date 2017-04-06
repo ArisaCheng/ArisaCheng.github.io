@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Lora|Pavanam');
+
+body {
+  font-size: 16px;
+  font-family: "Lato","Lora","Pavanam",sans-serif;
+  background-color: rgb(254, 252, 255);
+  width: 850px;
+  margin:0 auto;
+  line-height: 1.5;
+}
+
+p {
+  font-family: "Lato",sans-serif;
+}
+
+h1,h2,h3 {
+  font-family: "Lora",sans-serif;
+  margin: 0;
+}
+
+h1 {
+  color: rgb(236,197,192);
+  position: absolute;
+  left: 45%;
+  font-size: 36px;
+}
+
+h3 {
+font-size: 20px;
+}
+
+li {
+  font-family: "Pavanam",sans-serif;
+  font-size: 18px;
+}
+
+header {
+  position:relative;
+  color: #222;
+}
+
+header a {
+  color: rgb(101,158,199);
+}
+
+header p {
+  color: rgb(179, 132, 129);
+  padding: 1px;
+  position: relative;
+  left: 9%;
+}
+
+#p1 {
+  padding-top: 100px;
+}
+
+header img {
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(236,197,192);
+  float:left;
+  margin-right: 30px;
+}
+
+
+
+nav ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: rgb(236,197,192);
+}
+
+nav a:active {
+  color: rgb(131,126,124);
+}
+
+nav {
+  font-size: 10px;
+  padding: 2px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+main {
+  position: relative;
+}
+
+section {
+  background-color: rgb(253, 238, 244);
+  padding-left: 25px;
+  margin-top: 10px;
+}
+
+#education {
+  margin-top: 30px;
+}
+
+#education a {
+  color: rgb(101,158,199);
+}
+
+#working-experience a {
+  color: rgb(101,158,199);
+}
+
+
+#education h2 {
+  color: rgb(114,110,109);
+}
+
+#education li {
+  color: rgb(132,132,130);
+}
+
+
+#working-experience li {
+  color: rgb(132,132,130);
+}
+
+#working-experience h2 {
+  color: rgb(114,110,109);
+}
+
+#working-experience h3 {
+  margin-top: 15px;
+}
+
+#working-experience p {
+  margin-top: auto;
+}
+
+#activity h2 {
+  color: rgb(114,110,109);
+}
+
+#activity li {
+  color: rgb(132,132,130);
+}
+
+#language h2 {
+  color: rgb(114,110,109);
+}
+
+#language li {
+  color: rgb(132,132,130);
+}
+
+#skills ul {
+  margin-top: 0;
+}
+
+#skills h2 {
+  color: rgb(114,110,109);
+  margin: 0;
+}
+
+#skills li {
+  color: rgb(132,132,130);
+  margin: 0;
+}
+
+#skill1 {
+  max-width: 260px;
+  position: absolute;
+  left: 0;
+  padding-left: 60px;
+  padding-right: 140px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+#skill2 {
+  max-width: 260px;
+  position: absolute;
+  left: 33%;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+#skill3 {
+  max-width: 260px;
+  position: absolute;
+  right: 0;
+  padding-right: 160px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  margin: 0;
+}
