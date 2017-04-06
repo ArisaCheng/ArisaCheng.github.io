@@ -62,8 +62,6 @@ header img {
   margin-right: 30px;
 }
 
-
-
 nav ul {
   margin: 0;
   padding-left: 0;
@@ -75,6 +73,10 @@ nav li {
   margin-right: 10px;
   padding-bottom: 20px;
   padding-left: 20px;
+}
+
+nav a:visited {
+  color: rgb(127,78,82);
 }
 
 nav a:hover {
@@ -111,10 +113,18 @@ section {
   color: rgb(101,158,199);
 }
 
-#working-experience a {
-  color: rgb(101,158,199);
+#education a:visited {
+  color: rgb(127,78,82);
 }
 
+#education a:hover {
+  text-decoration: underline;
+  color: rgb(236,197,192);
+}
+
+#education a:active {
+  color: rgb(131,126,124);
+}
 
 #education h2 {
   color: rgb(114,110,109);
@@ -122,6 +132,23 @@ section {
 
 #education li {
   color: rgb(132,132,130);
+}
+
+#working-experience a {
+  color: rgb(101,158,199);
+}
+
+#working-experience a:visited {
+  color: rgb(127,78,82);
+}
+
+#working-experience a:hover {
+  text-decoration: underline;
+  color: rgb(236,197,192);
+}
+
+#working-experience a:active {
+  color: rgb(131,126,124);
 }
 
 
