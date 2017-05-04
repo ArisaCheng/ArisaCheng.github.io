@@ -1,12 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Lora|Pavanam');
 
 body {
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Lato","Lora","Pavanam",sans-serif;
-  background-color: rgb(254, 252, 255);
-  width: 850px;
+  width: 960px;
   margin:0 auto;
   line-height: 1.5;
+  background-image: url("../img/marble.jpg");
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: center;
+}
+
+
+h1 {
+  top: 10px;
+  position: relative;
+  font-size: 36px;
 }
 
 p {
@@ -18,13 +28,6 @@ h1,h2,h3 {
   margin: 0;
 }
 
-h1 {
-  color: rgb(236,197,192);
-  position: absolute;
-  left: 45%;
-  font-size: 36px;
-}
-
 h3 {
 font-size: 20px;
 }
@@ -34,7 +37,7 @@ li {
   font-size: 18px;
 }
 
-header {
+#resume header {
   position:relative;
   color: #222;
 }
@@ -43,36 +46,17 @@ header a {
   color: rgb(101,158,199);
 }
 
-header p {
-  color: rgb(179, 132, 129);
-  padding: 1px;
+nav {
   position: relative;
-  left: 9%;
-}
-
-#p1 {
-  padding-top: 100px;
-}
-
-header img {
-  border-width: 3px;
-  border-style: solid;
-  border-color: rgb(236,197,192);
-  float:left;
-  margin-right: 30px;
+  z-index: 10;
 }
 
 nav ul {
-  margin: 0;
-  padding-left: 0;
+  margin-right: 120px;
   list-style: none;
-}
-
-nav li {
-  display: inline-block;
-  margin-right: 10px;
-  padding-bottom: 20px;
-  padding-left: 20px;
+  border: 2px;
+  float: right;
+  position: relative;
 }
 
 nav a:visited {
@@ -88,8 +72,8 @@ nav a:active {
   color: rgb(131,126,124);
 }
 
-nav {
-  font-size: 10px;
+nav li {
+  font-size: 20px;
   padding: 2px;
   margin-top: 10px;
   margin-bottom: 0;
@@ -100,9 +84,19 @@ main {
 }
 
 section {
-  background-color: rgb(253, 238, 244);
   padding-left: 25px;
   margin-top: 10px;
+  margin-left: 100px;
+}
+
+#homephoto {
+  margin-right: 10px;
+  float: left;
+}
+
+#homep {
+  margin-top: 40px;
+  margin-right: 10px;
 }
 
 #education {
@@ -202,29 +196,88 @@ section {
   max-width: 260px;
   position: absolute;
   left: 0;
-  padding-left: 60px;
-  padding-right: 140px;
-  padding-top: 10px;
-  padding-bottom: 50px;
-  margin: 0;
+  padding-left: 150px;
 }
 
 #skill2 {
   max-width: 260px;
   position: absolute;
   left: 33%;
-  padding-right: 100px;
-  padding-top: 10px;
-  padding-bottom: 50px;
-  margin: 0;
 }
 
 #skill3 {
   max-width: 260px;
   position: absolute;
   right: 0;
-  padding-right: 160px;
-  padding-top: 10px;
-  padding-bottom: 50px;
+  padding-right: 240px;
+}
+
+#homephoto {
+  margin-top: 10px;
+}
+
+#homep {
+  float: right;
+  position: relative;
+
+}
+
+#poster2 {
+  margin-top: 30px;
+}
+
+#poster3 {
+  float: right;
+  position: relative;
+}
+
+#poster6 {
+  float:right;
+  position: relative;
+}
+
+#campaign nav ul {
   margin: 0;
+}
+
+#bb1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+}
+#bb2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+}#bb3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+}#bb4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+}
+
+#photom p {
+  margin-left: 100px;
+}
+
+#mag {
+  margin: 0;
+}
+
+#magp {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+
+#photos {
+  margin-top: 50px;
+  overflow: auto;
+}
+
+#photo a {
+  display: inline-block;
 }
